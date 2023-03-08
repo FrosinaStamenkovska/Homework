@@ -18,42 +18,24 @@
                 return;
             }
 
-            // Way 1
-            for (int i = 1; i < number1; i++)
+            int printingCounter = 0;
+            
+            for (int i = 1; i <= number1; i++)
             {
                 if (i % 3 != 0 && i % 7 != 0)
                 {
                     Console.WriteLine(i);
-                    if (i == 100)
+                    printingCounter++;
+                    
+                    if (printingCounter == 100)
                     {
                         Console.WriteLine("The limit is reached!");
-                        return;
+                        break;
                     }
                 }
             }
 
-            // Way 2
-            //if(number1 > 100)
-            //{
-            //    for (int i = 1; i <= 100; i++)
-            //    {
-            //        if(i % 3 != 0 &&  i % 7 != 0)
-            //        {
-            //            Console.WriteLine(i);
-            //        }
-            //    }
-            //    Console.WriteLine("The limit is reached!");
-            //}
-            //else
-            //{
-            //    for (int i = 1; i < number1; i++)
-            //    {
-            //        if (i % 3 != 0 && i % 7 != 0)
-            //        {
-            //            Console.WriteLine(i);
-            //        }
-            //    }
-            //}
+            
 
 
 
