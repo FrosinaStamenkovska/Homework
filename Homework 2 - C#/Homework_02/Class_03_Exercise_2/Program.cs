@@ -13,7 +13,7 @@
             }
 
             Console.WriteLine($"Even numbers from 2 to {number1}:");
-            if (number1 < 0)
+            if (number1 < 2)
             {
                 for (int i = 2; i >= number1; i--)
                 {
@@ -43,7 +43,7 @@
             }
 
             Console.WriteLine($"Odd numbers from 1 to {number2}:");
-            if (number2 < 0)
+            if (number2 < 1)
             {
                 for (int i = 1; i >= number2; i--)
                 {
